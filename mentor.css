@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+#container{
+	margin-top: 200px;
+	margin-bottom: 300px;
+	background-color: azure;
+
+}
+#view{
+	padding-right: 60px;
+}
+
+#blog{
+	padding-left:70px; 
+}
+#update{
+	padding-right: 3px;
+}
+#students{
+	padding-left: 80px;
+}

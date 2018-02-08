@@ -1,0 +1,26 @@
+#sliderrow{
+	margin-top: 70px;
+}
+
+#notice{
+	background-color:thistle;
+}
+
+#discp{
+	padding-bottom: 80px;
+}
+.footer {
+  position:relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+  margin-top: -3em;	
+	
+}
+
+#body{
+	background-color:azure;
+}

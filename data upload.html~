@@ -1,0 +1,144 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>upload</title>
+  <link rel="stylesheet" href="slider.css">
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <!-- FONTAWESOME STYLE CSS -->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+    <!-- CUSTOM STYLE CSS -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <!-- GOOGLE FONT -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
+</head>
+
+<body bgcolor="wheat">
+    
+     <header>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="htttp://www.binarytheme.com"><img src="assets/img/CS10.png"  alt="Logo">CS10</a>
+            </div>
+            <!-- Collect the nav links for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">HOME</a>
+                    </li>
+                    <li><a href="#services">STUDY MATERIALS</a>
+                    </li>
+
+                    <li><a href="data upload.html">UPLOAD CONTENT</a>
+                    </li>
+
+                    <li><a href="faculty.html">FACULTY</a>
+                    </li>
+
+                    <li><a href="student list.html">STUDENTS</a>
+                    </li>
+
+                    <li><a href="table.html">TIME TABLE</a>
+                    </li>
+
+                    <li><a href="#price-sec">BLOGS</a>
+                    </li>
+                    
+                    <li><a href="admin.html">ADMIN</a>
+                    </li>
+
+                   
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+          </header>
+    <!--End Navigation -->
+     
+     <br><br>
+     <h2 align="center">Welcome to the World Of Data Sharing</h2>
+     <br><br>
+     <center>
+ <form action="upload.php" method="post" enctype="multipart/form-data">
+     <fieldset>
+          <br><br>
+        
+          <table width="60%" align="center" cellpadding="1" cellspacing="1">
+             <tr> 
+               <td  align="left"colspan="2" style="width:10;">Roll Number :
+                 <input type="text"name="roll"size="10" maxlength="15"/></td>
+            
+            
+              </tr>
+              </table>
+               <br>
+                 <table width="60%" align="center" cellpadding="1" cellspacing="1"> 
+            <tr> <td style="width:10;" align="left">Subject :
+            
+            
+             
+                   <select name="subject">
+                   <option selected="selected">None</option>
+                  <option value="1">DAA</option>
+                  <option value="2">DBMS</option>
+                  <option value="3">ECO</option>
+                  <option value="4">COA</option>
+                  <option value="5">MATHS</option>
+                  <option value="6">PDC</option>
+                  <option value="7">DBMS LAB</option>
+                  <option value="8">BC LAB</option>
+                  <option value="9">DAA LAB</option>
+                  <option value="10">Any Other</option>
+                </select>
+               </td>
+               </tr>
+               </table>
+               <br>
+                 <table width="60%" align="center" cellpadding="1" cellspacing="1"> 
+               <tr> 
+               <td colspan="2" style="width:10;">Topic/Description :
+              <input type="text"name="topic"size="20" maxlength="25"/></td>
+            
+            
+            </tr></table><br><br>
+           <table width="60%" align="center" cellpadding="1" cellspacing="1"> 
+            <tr>
+            <td style="width:10;" align="left">Select File to Upload:</td>
+              <td style="width:20%;"><input type="file" name="file1"></td>
+            </tr></table><br>
+          <table width="60%" align="center" cellpadding="1" cellspacing="1">
+           <tr>
+            <td style="width:10;" align="left">Select File to Upload:</td>
+              <td style="width:20%;"><input type="file" name="file2"></td>
+            </tr></table><br>
+            <table width="60%" align="center" cellpadding="1" cellspacing="1">
+            <tr>
+            <td style="width:10;" align="left">Select File to Upload:</td>
+              <td style="width:20%;"><input type="file" name="file2"></td>
+            </tr></table><br>
+            <table width="60%" align="center" cellpadding="1" cellspacing="1">
+            <tr>
+            <td style="width:10;" align="left">Select File to Upload:</td>
+              <td style="width:20%;"><input type="file" name="file2"></td>
+            </tr></table><br>
+            <table width="60%" align="center" cellpadding="1" cellspacing="1">
+            <tr> 
+                <td colspan="2"style="width:10;" align="center"><br>
+                  <input type="submit" name="submit"value="SUBMIT"></input>
+                  <input type="reset" name="reset" value="RESET"></input>
+                  </td>
+              </tr>
+          </table> 
+     </fieldset>
+   </form>  
+   </center>
+</body>
+</html>

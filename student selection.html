@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>select students</title>
+<link rel="stylesheet" href="custom-css.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+
+<body background="assets/img/4.jpg">
+	<div class="container">
+	<hr>
+	 <form name="selection"  method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+		<div class="row">
+			<input type="radio" name="radio1" value="radio1">
+			<label><h4>All Students</h4></label></input>			
+		</div>
+	<hr>	
+		<div class="row">
+			<input type="radio" name="radio1" value="radio1">
+			<label><h4>select on the basis on</h4></label>	
+		</div>
+		<div class="row">
+			<div class="col-md-2">
+				<input type="checkbox" name="ch[]" >
+				<label>CGPA</label>
+			</div>
+			<div class="col-md-2">
+				<label>From  </label>
+				<input type="text" name="start" size="5"value=""></input>
+			</div>
+			<div class="col-md-2">
+				<label>To  </label>
+					<input type="text" name="end" size="2" value=""></input>
+				</input>
+			</div>						
+		</div>
+		<hr>
+			
+		<div class="row">
+			<div class="col-md-2">
+				<input type="checkbox" name="ch[]">
+				<label>Gender</label>			
+			</div>
+			<div class="col-lg-2" align="center">
+			
+				<input type="radio" name="gender">	
+						<label>M</label></input>
+			</div>
+			<div class="col-lg-2" align="center">
+				<input type="radio" name="gender">
+				<label>F</label></input></input>
+			</div>
+		</div>
+		<hr>
+		<div class="row">
+			<div class="col-md-4">
+				<input type="checkbox" name="ch[]">
+				<label>Programing Languages</label>
+			</div >	
+			<div class="col-md-8">
+			
+				
+			
+				<select name="aa">
+					<option selected="selected">No Selection</option>
+					<option value="C">C</option>
+					<option value="C++">C++</option>
+					<option value="Java">Java</option>
+					<option value="Python">Python</option>
+					<option value="JavaScript">JavaScript</option>
+					<option value="C#">C#</option>
+				</select></input>
+			</div>
+		</div>
+		<hr>
+		<div class="row">
+			<div class="col-md-4">
+				<input type="checkbox" name="ch[]">
+				<label>Interested fields</label>
+			</div>
+			<div class="col-md-8">
+	
+			
+			
+				<select name="ab">
+					<option selected="selected">No Selection</option>
+					<option value="Database">Database</option>
+					<option value="Parallel Programming">Parallel Programming</option>
+					<option value="Cloud Computing">Cloud Computing</option>
+					<option value="Web Development">Web Development</option>
+					<option value="Software Development">Software Development</option>
+					<option value="Game Development">Game Development</option>
+					<option value="App Development">App Development</option>
+					<option value="Algorithm">Algorithm</option>
+					<option value="Computer Security">Computer Security</option>
+					<option value="Networking">Networking</option>
+					<option value="Data Analysis">Data Analysis</option>
+					<option value="OS Design & Development">OS Design & Development</option>
+					<option value="Dev-ops">Dev-ops</option>
+					<option value="Langauges/Compiler Design">Langauges/Compiler Design</option>
+				</select>
+			</div></input></input>
+		</div>
+		<hr>
+		<div class="row" align="center">
+			<div class="col-md-12">
+				<input type="submit" name="submit" value="submit"></input>
+			</div>			
+		</div>
+	</div>
+</body>
+</html>
